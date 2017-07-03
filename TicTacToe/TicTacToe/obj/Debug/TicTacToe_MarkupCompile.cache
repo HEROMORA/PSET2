@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\users\heromora\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\obj\Debug\
+C:\Users\HEROMORA\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\obj\Debug\
 TicTacToe
 none
 false
 DEBUG;TRACE
-c:\users\heromora\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\App.xaml
-270690528
+C:\Users\HEROMORA\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\App.xaml
+3-762370681
 
-61707064026
+7-450775824
 13738642453
-MainWindow.xaml;SinglePlayer.xaml;
+MainWindow.xaml;MultiPlayer.xaml;SinglePlayer.xaml;
 
 False
 

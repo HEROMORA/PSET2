@@ -96,6 +96,7 @@ namespace TicTacToe
         {
             var result = ButtonsGrid.Children;
             //Shuffle(result); Shuffle Trying
+
             foreach (Control btn in result)
             {
                 {
@@ -129,12 +130,10 @@ namespace TicTacToe
         {
             button.Content = "X";
             button.IsEnabled = false;
-            CheckTie();
-            ComputerTurn();
             IsWin("X");
-            IsWin("O");           
-            
-            
+            ComputerTurn();
+            IsWin("O");
+            CheckTie();
         }
 
         private void btn1_Click(object sender, RoutedEventArgs e)

@@ -14,3 +14,5 @@ c:\users\heromora\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\obj\
 c:\users\heromora\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
 c:\users\heromora\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\obj\Debug\SinglePlayer.g.cs
 c:\users\heromora\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\obj\Debug\SinglePlayer.baml
+C:\Users\HEROMORA\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\obj\Debug\MultiPlayer.g.cs
+C:\Users\HEROMORA\documents\visual studio 2017\Projects\TicTacToe\TicTacToe\obj\Debug\MultiPlayer.baml

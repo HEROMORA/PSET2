@@ -26,8 +26,8 @@ namespace TicTacToe
         }
 
         private string playtype = "SinglePlayer";
-        public static string Player1Name = "";
-        public static string Player2Name = "";
+        public static string Player1Name;
+        public static string Player2Name;
 
         private void singleplayerbtn_Click(object sender, RoutedEventArgs e)
         {
@@ -46,17 +46,29 @@ namespace TicTacToe
 
         private void submitbtn_Click(object sender, RoutedEventArgs e)
         {
+            if (firstbox.Text == "")
+                MessageBox.Show("Please Fill The Name Boxes");
 
-            Player1Name = firstbox.Text.ToString();
-            if (playtype == "SinglePlayer")
-            {
-                SinglePlayer sp = new SinglePlayer();
-                sp.ShowDialog();
-            }
             else
             {
-                Player2Name = secondbox.Text.ToString();
-                // mp.ShowDialog();
+
+                Player1Name = firstbox.Text.ToString();
+                if (playtype == "SinglePlayer")
+                {
+                    SinglePlayer sp = new SinglePlayer();
+                    sp.ShowDialog();
+                }
+                else
+                {
+                    if (secondbox.Text == "")
+                        MessageBox.Show("Please Fill The Name Boxes");
+                    else
+                    {
+                        Player2Name = secondbox.Text.ToString();
+                        MultiPlayer mp = new MultiPlayer();
+                        mp.ShowDialog();
+                    }
+                }
             }
         }
     }
